@@ -43,5 +43,16 @@
    git push origin main
 
 10. when git status display 
-   "Your branch is ahead of 'origin/main' by 1 commit.", this line means we are 1 commit ahead 
-   as compared to GitHub
+    "Your branch is ahead of 'origin/main' by 1 commit.", this line means we are 1 commit ahead 
+    as compared to GitHub
+
+11. init command
+    
+    init - used to create a new git repo
+
+    git init 
+    git remote add origin <link>
+    git remote -v ()
+    git branch ()
+    git branch -M branch (to rename branch)
+    git push origin main
