@@ -40,6 +40,7 @@
    git commit -m "add some message"
 
    push - this command upload local repo(laptop) content to remote repo(GitHub)
+   git push origin main
 
 10. when git status display 
    "Your branch is ahead of 'origin/main' by 1 commit.", this line means we are 1 commit ahead 
