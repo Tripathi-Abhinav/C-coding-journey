@@ -50,7 +50,10 @@
     
     init - used to create a new git repo
 
-    git init 
+    git init  (this command intializes a new Git repository in the current working directory
+               this is can be verfied using "ls -h" command, if it is git repo then, this 
+               command gives ".git")
+
     git remote add origin <link>
     git remote -v ()
     git branch ()
