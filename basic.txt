@@ -1,0 +1,40 @@
+1. Local repository (repo) => our laptop/computer
+   Remote repo => git
+
+2. changes in git language means => commit
+
+3. Configuring Git (means telling Git with which account and username we want to commit changes)
+   git config --global user.name "give username"
+   git config --global user.email "someone@email.com" (there two ways of configuration: local and global)
+   git config --list  (to see details stored in git config)
+
+4. Clone - Cloning a repository on our local machine to work 
+   git clone <project link>
+
+5. status - displays the state of the code
+   git status
+
+6. There are 4 status of any file in git :-
+
+   untracked -
+   new files that git doesn't yet track (new file)
+
+   modified - 
+   changed
+
+   staged - 
+   file is ready to be committed
+
+   unmodified - 
+   unchanged
+
+7. after modify there is two step process :-
+   modify -> add -> commit
+
+8. change (modified) / created newfile (untracked)  --> add (staged) --> commit (unchanged)
+
+9. add - adds new or changed files in your working directory to the Git staging area
+   git add <file name> (use 'git restore --staged <file name>' instead of 'add' to unstage)
+
+   commit - it is the record of change
+   git commit -m "add some message"
